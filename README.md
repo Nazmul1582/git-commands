@@ -32,6 +32,11 @@
 | `git init` | initialize git in your working directory |
 | `git config --global user.name "username"` | set username in git globally |
 | `git config --global user.email "email"` | set email address in git globally |
+| `git config --global --unset user.name` | remove username from machine globally |
+| `git config --global --unset user.email` | remove email address from machine globally |
+| `git config --local --unset user.name` | remove local configuration |
+| `git config --local --unset user.email` | remove local configuration |
+| `git config --list` | show user credentials (username, email etc) |
 
 ### *3. Add/Staged repository from working directory(wd)*
 
